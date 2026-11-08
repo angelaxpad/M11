@@ -10,6 +10,6 @@ score3 = float(input("Enter exam 3 score: "))
 
 totalpoints, average = calculatescores(score1, score2, score3)
 
-print("Student last name:", latname)
+print("Student last name:", lastname)
 print("Total points:", format(totalpoints, ".2f"))
-print("Average exams score:", fomat(average, ".2f))
+print("Average exams score:", format(average, ".2f"))
